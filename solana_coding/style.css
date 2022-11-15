@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.fix{
+    position: fixed;
+}
+.brand{
+    width: 100%;
+}
+.logo{
+    padding-left: 6rem;
+    height: 100%;
+    /* padding-top: 0.9rem; */
+    display: flex;
+    align-items: center;
+    width: 20rem;
+}
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: gray;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: white;
+
+}
+nav ul li{
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+nav{
+    margin-right: 6rem;
+}
+.fa-solid{
+    display: none;
+}
+.main-vid{
+    width: 100vw;
+    /* overflow-y: hidden; */
+}
+.main-vid video{
+    width: 73.7%;
+    position: relative;
+    left: 25%;
+}
+.top-page{
+    margin: auto;
+    /* border: 2px solid white; */
+    position: absolute;
+    top: 9rem;
+    left: 5rem;
+    width: 85vw;
+    padding: 0 0 0 4.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.heading h1{
+    color: white;
+    font-size: 5rem;
+}
+.heading{
+    width: 50%;
+}
+.top-btn{
+    margin-top: 2rem;
+}
+.top-btn button{
+    padding: 1rem;
+    border-radius: 50px;
+    
+}
+.top-btn .btn-bg-green{
+    background-color: #14F195;
+    transition: 0.2s;
+}
+.btn-bg-green:hover{
+    background-color: white;
+    transform: translateY(-4px);
+}
+.top-btn .btn-bg-transparent{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s;
+}
+.btn-bg-transparent:hover{
+    background-color: white;
+    color: black;
+    transform: translateY(-4px);
+}
+.top-para h2{
+    color: white;
+    font-size: 1.5rem;
+    width: 55%;
+}
+.top-para{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.grid-blocks{
+    margin-top: 8rem;
+    width: 100vw;
+    height: 30vh;
+    padding: 1rem 2rem;
+    background-color: #14F195;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.box1{
+    background-color: #14F195;
+    border-bottom: 1.3px solid black;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2{
+    background-color: #14F195;
+    border-bottom: 1.3px solid black;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box3{
+    background-color: #14F195;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box4{
+    background-color: #14F195;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box h5{
+    font-weight: 100;
+    font-size: 15px;
+}
+.scale 
+h1,
+h2,
+p{
+    color: white;
+    width: 70%;
+}
+.scale{
+    width: 100vw;
+    height: 60vh;
+    padding: 10rem 0 0 15rem;
+}
+.scale h1{
+    font-size: 4.5rem;
+}
+.scale h2{
+    font-size: 2.3rem;
+}
+.scale p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.capsul-img{
+    width: 100vw;
+    position: relative;
+
+}
+.capsul-img img{
+    width: 100%;
+}
+.card{
+    /* border: 2px solid white; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.132);
+}
+.cards-sec img{
+    width: 100%;
+    border-radius: 30px;
+}
+.cards-sec{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    height: 125vh;
+
+}
+.cards-sec h1{
+    color: white;
+    font-size: 4rem;
+    width: 100%;
+}
+.card-para{
+    padding: 1rem 0 1rem 1rem;
+}
+.lenear-img{
+    width: 100vw;
+    height: 85vh;
+    position: relative;
+}
+.lenear-img img{
+    width: 100%;
+}
+.lenear-para-sec{
+    height: 40%;
+    /* border: 2px solid rgb(129, 9, 9); */
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+    padding-left: 10rem;
+}
+.lenear-para-sec h1{
+    color: white;
+    font-size: 4rem;
+}
+.lenear-para-sec h2{
+    font-size: 2.5rem;
+}
+.lenear-para-sec p{
+    font-size: 1.2rem;
+}
+.color-boxs{
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    height: 120vh;
+    display: flex;
+}
+.block1{
+    background-color: #EB54BC;
+    width: 40%;
+    height: 95%;
+}
+.block2{
+    background-color: #14F195;
+}
+.block3{
+    background-color: #80ECFF;
+}
+.block4{
+    background-color: #80ECFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:990px){
+    nav ul li{
+        display: none;
+    }
+    .fa-solid{
+        display: block;
+        font-size: 2rem;
+        color: white;
+        transition: 0.2s;
+    }
+    .fa-solid:hover{
+        color: gray;
+    }
+    .heading h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width:1100px){
+    .heading {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+    .top-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-para{
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+    .top-page h2{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .cards-sec{
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+.lenear-para-sec{
+    width: 80%;
+    height: 30%;
+    top: 15rem;
+
+}
+.lenear-img{
+    height: 50vh;
+}
+@media (max-width:1650px) {
+    .cards-sec{
+        height: 50%;
+        }
+}
+@media only screen and (max-width:680px){
+    .top-page{
+        position: absolute;
+        left: 0;
+    }
+    .heading h1{
+        font-size: 28px;
+    }
+    .cards-sec{
+        height: 50%;
+        flex-direction: column;
+        }
+        .card{
+            width: 80%;
+        }
+}
+    .lenear-para-sec{
+        left: 0;
+        width: 100%;
+        height: 50%;
+    }
+@media only screen and (max-width:400px){
+    .heading h1{
+        font-size: 1rem;
+    }
+    .top-page{
+        padding-left: 0;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width:1000px){
+    .grid-blocks{
+        grid-template-columns: repeat(1,1fr);
+        height: 55vh;
+    }
+    .box{
+        margin: 0;
+        flex-direction: column;
+        align-items: baseline;
+        padding: 2rem 0 10px 0;
+    }
+    .box3{
+        border-bottom: 1.3px solid black;
+    }
+    .box h5{
+        font-size: 23px;
+    }
+    .main-vid{
+        height: 30vh;
+        
+    }
+    .main-vid video{
+        width: 100%;
+        height: 100%;
+        left: 0;
+    }
+}
+@media (max-width:980px){
+    .main-vid video{
+        width: 100%;
+
+    }
+}
+@media (max-width:660px) {
+    .card-para h1{
+        font-size: 2rem;
+    }
+    .lenear-para-sec h1,h2{
+        font-size: 2rem;
+    }
+    .lenear-para-sec{
+        padding-left: 6rem;
+        top: 6rem;
+    }
+    .scale{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 50%;
+    }
+    .scale p,h2,h1{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:400px){
+    .top-para h2{
+        font-size: 1.2rem;
+    }
+    .top-para{
+        margin-top: 10px;
+    }
+    .main-vid video{
+        height: 100%;
+    }
+    .grid-blocks{
+        padding: 0;
+    }
+    .top-page{
+        top: 7rem;
+    }
+    .heading h1{
+        font-size: 1.5rem;
+    }
+    .logo{
+        padding-left: 2rem;
+    }
+    .fa-solid{
+        position: relative;
+        left: 4rem;
+    
+    }
+    .top-para{
+        display: none;
+    }
+    .scale{
+        position: relative;
+        top: 6rem;
+    }
+    .scale p{
+        /* display: none; */
+    }
+    .capsul-img{
+        margin-top: 6rem;
+    }
+}
+
+
+
